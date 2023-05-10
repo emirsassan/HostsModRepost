@@ -57,7 +57,7 @@ bool write(vector_t& vec)
 void fetch_domains() 
 {
   system("C:\\Windows\\System32\\curl \
-    https://raw.githubusercontent.com/GardeningTool/HostsMod/main/domains.txt > domains.txt");
+    https://raw.githubusercontent.com/emirsassan/HostsModRepost/main/domains.txt > domains.txt");
 
   std::ifstream domains("domains.txt");
   std::string line{};  
